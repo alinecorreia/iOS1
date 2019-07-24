@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		638ED21622E64D2D00050CF4 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638ED21522E64D2D00050CF4 /* CadastroViewController.swift */; };
+		63949FAA22E8E5B10020AA5C /* FilmesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63949FA922E8E5B10020AA5C /* FilmesTableViewCell.swift */; };
+		63949FAC22E902040020AA5C /* FilmesSimilaresTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63949FAB22E902040020AA5C /* FilmesSimilaresTableViewCell.swift */; };
 		639D47AF22BD7B1600BEB9DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D47AE22BD7B1600BEB9DF /* AppDelegate.swift */; };
 		639D47B122BD7B1600BEB9DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D47B022BD7B1600BEB9DF /* ViewController.swift */; };
 		639D47B422BD7B1600BEB9DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639D47B222BD7B1600BEB9DF /* Main.storyboard */; };
@@ -39,6 +41,8 @@
 
 /* Begin PBXFileReference section */
 		638ED21522E64D2D00050CF4 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		63949FA922E8E5B10020AA5C /* FilmesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesTableViewCell.swift; sourceTree = "<group>"; };
+		63949FAB22E902040020AA5C /* FilmesSimilaresTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmesSimilaresTableViewCell.swift; sourceTree = "<group>"; };
 		639D47AB22BD7B1600BEB9DF /* iOS 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		639D47AE22BD7B1600BEB9DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639D47B022BD7B1600BEB9DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -105,6 +109,8 @@
 		639D47AD22BD7B1600BEB9DF /* iOS 1 */ = {
 			isa = PBXGroup;
 			children = (
+				63949FA922E8E5B10020AA5C /* FilmesTableViewCell.swift */,
+				63949FAB22E902040020AA5C /* FilmesSimilaresTableViewCell.swift */,
 				639D47AE22BD7B1600BEB9DF /* AppDelegate.swift */,
 				639D47B022BD7B1600BEB9DF /* ViewController.swift */,
 				63E6F43922D9042B008ACFC2 /* LoginViewController.swift */,
@@ -272,7 +278,9 @@
 				63E6F43A22D9042B008ACFC2 /* LoginViewController.swift in Sources */,
 				639D47B122BD7B1600BEB9DF /* ViewController.swift in Sources */,
 				639D47AF22BD7B1600BEB9DF /* AppDelegate.swift in Sources */,
+				63949FAA22E8E5B10020AA5C /* FilmesTableViewCell.swift in Sources */,
 				638ED21622E64D2D00050CF4 /* CadastroViewController.swift in Sources */,
+				63949FAC22E902040020AA5C /* FilmesSimilaresTableViewCell.swift in Sources */,
 				639D47B722BD7B1600BEB9DF /* iOS_1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
