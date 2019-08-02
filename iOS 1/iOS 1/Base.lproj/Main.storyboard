@@ -595,7 +595,7 @@
         <!--Favoritos-->
         <scene sceneID="rEN-64-9Y6">
             <objects>
-                <tableViewController title="Favoritos" id="h1M-yy-Wxh" sceneMemberID="viewController">
+                <tableViewController title="Favoritos" id="h1M-yy-Wxh" customClass="FavoritosTableViewController" customModule="iOS_1" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Dpv-rX-wRq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -724,6 +724,9 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Favoritos" id="qlB-VT-VLa"/>
+                    <connections>
+                        <outlet property="userImage" destination="mP8-6W-01s" id="KKO-k2-Yxo"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uNX-eE-ykW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -818,6 +821,6 @@
         <image name="user-logo" width="75" height="75"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="CWa-gA-RdV"/>
+        <segue reference="2wc-Cd-grp"/>
     </inferredMetricsTieBreakers>
 </document>

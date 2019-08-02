@@ -16,6 +16,7 @@
 		639D47C722BD7B1700BEB9DF /* iOS_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D47C622BD7B1700BEB9DF /* iOS_1Tests.swift */; };
 		639D47D222BD7B1700BEB9DF /* iOS_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639D47D122BD7B1700BEB9DF /* iOS_1UITests.swift */; };
 		63BA718522EB767F003DAFE6 /* RedBorderUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BA718422EB767F003DAFE6 /* RedBorderUITextField.swift */; };
+		63D6B59D22F4DC1B00F38390 /* FavoritosTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D6B59C22F4DC1B00F38390 /* FavoritosTableViewController.swift */; };
 		63E6F43822D8F7A1008ACFC2 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63E6F43722D8F7A1008ACFC2 /* Media.xcassets */; };
 		63E6F43A22D9042B008ACFC2 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E6F43922D9042B008ACFC2 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		639D47D122BD7B1700BEB9DF /* iOS_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_1UITests.swift; sourceTree = "<group>"; };
 		639D47D322BD7B1700BEB9DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BA718422EB767F003DAFE6 /* RedBorderUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedBorderUITextField.swift; sourceTree = "<group>"; };
+		63D6B59C22F4DC1B00F38390 /* FavoritosTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosTableViewController.swift; sourceTree = "<group>"; };
 		63E6F43722D8F7A1008ACFC2 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		63E6F43922D9042B008ACFC2 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,6 +107,7 @@
 		639D47AD22BD7B1600BEB9DF /* iOS 1 */ = {
 			isa = PBXGroup;
 			children = (
+				63D6B59C22F4DC1B00F38390 /* FavoritosTableViewController.swift */,
 				63BA718422EB767F003DAFE6 /* RedBorderUITextField.swift */,
 				639D47AE22BD7B1600BEB9DF /* AppDelegate.swift */,
 				63E6F43922D9042B008ACFC2 /* LoginViewController.swift */,
@@ -274,6 +277,7 @@
 				638ED21622E64D2D00050CF4 /* CadastroViewController.swift in Sources */,
 				63BA718522EB767F003DAFE6 /* RedBorderUITextField.swift in Sources */,
 				639D47B722BD7B1600BEB9DF /* iOS_1.xcdatamodeld in Sources */,
+				63D6B59D22F4DC1B00F38390 /* FavoritosTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,6 +454,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -467,6 +472,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "iOS 1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
